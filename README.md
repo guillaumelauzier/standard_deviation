@@ -6,20 +6,6 @@ For example, if a data set has a low standard deviation, it means that most of t
 
 Standard deviation is often used in statistics to understand how much a data set varies from the mean. It is a useful measure of dispersion because it is based on all the values in the data set and takes into account how far each value is from the mean.
 
-The formula for calculating standard deviation is:
-
-standard deviation = sqrt(sum((x - mean)^2) / n)
-
-where x is each element in the data set, mean is the mean of the values in the data set, and n is the number of elements in the data set. The standard deviation is then the square root of the sum of the squared differences between each value and the mean, divided by the number of elements in the data set.
-
-I hope this helps! Let me know if you have any questions.
-
-
--
-
-
-This function takes an array of doubles data and an integer n representing the size of the array as input, and returns the standard deviation of the values in the array as a double.
-
 The standard deviation is calculated using the formula:
 
 standard deviation = sqrt(sum((x - mean)^2) / n)
